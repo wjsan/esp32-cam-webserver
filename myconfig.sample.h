@@ -22,7 +22,7 @@
  *    just replace your ssid and password in the line below.
  */
 
-struct station stationList[] = {{"my_ssid","my_password", true}};
+struct station stationList[] = {{"MY_SSID","MY_PASSWORD", true}};
 
 /*
  * You can extend the stationList[] above with additional SSID+Password pairs
@@ -179,8 +179,8 @@ struct station stationList[] = {{"ssid1", "pass1", true},
  * Remember to also select the board in the Boards Manager
  * This is not optional
  */
-#define CAMERA_MODEL_AI_THINKER       // default
-// #define CAMERA_MODEL_WROVER_KIT
+// #define CAMERA_MODEL_AI_THINKER       // default
+#define CAMERA_MODEL_WROVER_KIT
 // #define CAMERA_MODEL_ESP_EYE
 // #define CAMERA_MODEL_M5STACK_PSRAM
 // #define CAMERA_MODEL_M5STACK_V2_PSRAM
